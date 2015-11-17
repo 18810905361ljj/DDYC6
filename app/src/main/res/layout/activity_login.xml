@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#fff4f4f4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+ <include layout="@layout/list_header" />
+    <TextView
+        android:text="为了防止用户信息被盗用，请使用本机号码登录"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:paddingLeft="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/abc_popup_background_mtrl_mult"
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+        <ImageView
+            android:id="@+id/img_user"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:src="@mipmap/xk_ic_login_phone"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/edit_userName"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:inputType="textPassword"
+            android:paddingLeft="50dp"
+            android:background="@drawable/abc_popup_background_mtrl_mult"
+            android:layout_width="250dp"
+            android:layout_height="60dp" />
+        <ImageView
+            android:id="@+id/img_password"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:src="@mipmap/xk_ic_login_code"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+
+        <Button
+            android:id="@+id/btn_yanzheng"
+            android:background="@drawable/abc_popup_background_mtrl_mult"
+            android:text="获取验证码"
+            android:layout_width="wrap_content"
+          android:layout_gravity="center_horizontal"
+            android:layout_height="50dp"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/color_auditing"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/edit_userName"
+            android:layout_toEndOf="@+id/edit_userName" />
+
+
+    </RelativeLayout>
+    <Button
+        android:id="@+id/btn_login"
+        android:textSize="22sp"
+        android:text="登录"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/color_divider"
+        android:background="@color/color_near_top_title_tv_filter_p"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <CheckBox
+            android:id="@+id/checkbox_login"
+            android:text="同意并接受典典养车的"
+            android:layout_margin="10dp"
+            android:checked="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_toRightOf="@id/checkbox_login"
+            android:textColor="@color/color_near_top_title_tv_filter_p"
+            android:layout_alignBaseline="@id/checkbox_login"
+            android:id="@+id/text_service"
+            android:text="服务条款"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+
+</LinearLayout>

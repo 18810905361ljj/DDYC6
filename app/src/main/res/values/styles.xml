@@ -1,0 +1,34 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="homepage_category_style">
+        <item name="android:textSize">13.5sp</item>
+        <item name="android:textColor">#ff636364</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="RatingStar.aixin" parent="@android:style/Widget.RatingBar">
+        <item name="android:maxHeight">9.5dip</item>
+        <item name="android:indeterminateDrawable">@null</item>
+        <item name="android:progressDrawable">@drawable/rating_aixin</item>
+        <item name="android:minHeight">9.5dip</item>
+    </style>
+
+    <style name="RatingStar.huangguan" parent="@android:style/Widget.RatingBar">
+        <item name="android:maxHeight">9.5dip</item>
+        <item name="android:indeterminateDrawable">@null</item>
+        <item name="android:progressDrawable">@drawable/rating_huangguan</item>
+        <item name="android:minHeight">9.5dip</item>
+    </style>
+
+    <style name="RatingStar.zuanshi" parent="@android:style/Widget.RatingBar">
+        <item name="android:maxHeight">9.5dip</item>
+        <item name="android:indeterminateDrawable">@null</item>
+        <item name="android:progressDrawable">@drawable/rating_zuanshi</item>
+        <item name="android:minHeight">9.5dip</item>
+    </style>
+</resources>

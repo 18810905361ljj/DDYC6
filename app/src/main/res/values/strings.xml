@@ -1,0 +1,631 @@
+<resources>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="abc_action_bar_home_description">Navigate home</string>
+    <string name="abc_action_bar_up_description">Navigate up</string>
+    <string name="abc_action_menu_overflow_description">More options</string>
+    <string name="abc_action_mode_done">Done</string>
+    <string name="abc_activity_chooser_view_see_all">See all</string>
+    <string name="abc_activitychooserview_choose_application">Choose an app</string>
+    <string name="abc_searchview_description_clear">Clear query</string>
+    <string name="abc_searchview_description_query">Search query</string>
+    <string name="abc_searchview_description_search">Search</string>
+    <string name="abc_searchview_description_submit">Submit query</string>
+    <string name="abc_searchview_description_voice">Voice search</string>
+    <string name="abc_shareactionprovider_share_with">Share with</string>
+    <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
+    <string name="rc_called_accept">对方接受了通话请求</string>
+    <string name="rc_called_is_calling">对方正在通话中</string>
+    <string name="rc_called_not_accept">对方未接听</string>
+    <string name="rc_called_on_hook">对方已挂机</string>
+    <string name="rc_conversation_List_operation_failure">操作失败</string>
+    <string name="rc_conversation_list_app_public_service">应用公众服务</string>
+    <string name="rc_conversation_list_default_discussion_name">讨论组</string>
+    <string name="rc_conversation_list_dialog_cancel_top">取消置顶</string>
+    <string name="rc_conversation_list_dialog_remove">从会话列表中移除</string>
+    <string name="rc_conversation_list_dialog_set_top">置顶该会话</string>
+    <string name="rc_conversation_list_empty_prompt">暂无聊天信息</string>
+    <string name="rc_conversation_list_my_chatroom">我的聊天室</string>
+    <string name="rc_conversation_list_my_customer_service">客服列表</string>
+    <string name="rc_conversation_list_my_discussion">我的讨论组</string>
+    <string name="rc_conversation_list_my_group">我的群组</string>
+    <string name="rc_conversation_list_my_private_conversation">我的私人会话</string>
+    <string name="rc_conversation_list_not_connected">尚未连接!</string>
+    <string name="rc_conversation_list_popup_cancel_top">取消置顶</string>
+    <string name="rc_conversation_list_popup_set_top">已置顶</string>
+    <string name="rc_conversation_list_public_service">公众服务</string>
+    <string name="rc_conversation_list_system_conversation">系统消息</string>
+    <string name="rc_dialog_cancel">取消</string>
+    <string name="rc_dialog_item_message_copy">复制消息</string>
+    <string name="rc_dialog_item_message_delete">删除消息</string>
+    <string name="rc_dialog_ok">确定</string>
+    <string name="rc_discussion_nt_msg_for_add">%1$s 邀请了%2$s位成员加入了讨论组</string>
+    <string name="rc_discussion_nt_msg_for_added">%1$s 邀请 %2$s 加入了讨论组</string>
+    <string name="rc_discussion_nt_msg_for_exit">%1$s 退出了讨论组</string>
+    <string name="rc_discussion_nt_msg_for_is_open_invite_close">%1$s 关闭了成员邀请</string>
+    <string name="rc_discussion_nt_msg_for_is_open_invite_open">%1$s 开放了成员邀请</string>
+    <string name="rc_discussion_nt_msg_for_removed">你被 %1$s 移出了讨论组</string>
+    <string name="rc_discussion_nt_msg_for_rename">%1$s 修改讨论组名称为 %2$s</string>
+    <string name="rc_discussion_nt_msg_for_who_removed">%1$s 被 %2$s 移出了讨论组</string>
+    <string name="rc_discussion_nt_msg_for_you">你</string>
+    <string name="rc_exit_calling">是否退出通话界面？</string>
+    <string name="rc_file_not_exist">文件不存在</string>
+    <string name="rc_info_forbidden_to_talk">您当前在群组中被禁言</string>
+    <string name="rc_info_not_in_chatroom">你不在该聊天室</string>
+    <string name="rc_info_not_in_discussion">你不在该讨论组</string>
+    <string name="rc_info_not_in_group">你不在该群</string>
+    <string name="rc_input_send">发送</string>
+    <string name="rc_input_voice">按住 说话</string>
+    <string name="rc_message_content_draft">[草稿]</string>
+    <string name="rc_message_content_image">[图片]</string>
+    <string name="rc_message_content_location">[位置]</string>
+    <string name="rc_message_content_rich_text">[图文]</string>
+    <string name="rc_message_content_voice">[语音]</string>
+    <string name="rc_message_unknown">当前版本暂不支持查看此消息</string>
+    <string name="rc_message_unread_count">···</string>
+    <string name="rc_name">融云</string>
+    <string name="rc_network_error">网络连接错误</string>
+    <string name="rc_network_exception">网络异常请稍后再试</string>
+    <string name="rc_network_is_busy">网络繁忙</string>
+    <string name="rc_notice_connecting">正在连接服务器</string>
+    <string name="rc_notice_create_discussion">正在创建讨论组</string>
+    <string name="rc_notice_create_discussion_fail">创建讨论组失败</string>
+    <string name="rc_notice_data_is_loading">数据加载中</string>
+    <string name="rc_notice_disconnect">无法连接到服务器</string>
+    <string name="rc_notice_download_fail">下载失败!</string>
+    <string name="rc_notice_enter_chatroom">进入聊天室</string>
+    <string name="rc_notice_input_conversation_error">会话尚未创建</string>
+    <string name="rc_notice_load_data_fail">获取数据失败</string>
+    <string name="rc_notice_network_unavailable">当前网络不可用</string>
+    <string name="rc_notice_select_one_picture_at_last">请至少选择一张图片</string>
+    <string name="rc_notice_tick">该账号已经在其他设备登录</string>
+    <string name="rc_notification_contact">个联系人</string>
+    <string name="rc_notification_msg">条消息</string>
+    <string name="rc_notification_send">发来了</string>
+    <string name="rc_notification_ticker_text">您有了一条新消息</string>
+    <string name="rc_plugins_camera">相机</string>
+    <string name="rc_plugins_image">图片</string>
+    <string name="rc_plugins_location">位置</string>
+    <string name="rc_plugins_voip">语音通话</string>
+    <string name="rc_pub_service_info_account">公众号：%1$s</string>
+    <string name="rc_pub_service_info_description">功能介绍</string>
+    <string name="rc_pub_service_info_enter">进入公众号</string>
+    <string name="rc_pub_service_info_follow">关注</string>
+    <string name="rc_pub_service_info_unfollow">取消关注</string>
+    <string name="rc_read_all">阅读全文</string>
+    <string name="rc_rejected_by_blacklist_prompt">您的消息已经发出，但被对方拒收</string>
+    <string name="rc_send_format">发送(%1$s)</string>
+    <string name="rc_setting_clear_msg_fail">清空聊天失败</string>
+    <string name="rc_setting_clear_msg_name">清空聊天信息</string>
+    <string name="rc_setting_clear_msg_prompt">你确定要清空聊天消息吗?</string>
+    <string name="rc_setting_clear_msg_success">清空聊天成功</string>
+    <string name="rc_setting_conversation_notify">新消息通知</string>
+    <string name="rc_setting_conversation_notify_fail">设置新消息通知失败</string>
+    <string name="rc_setting_get_conversation_notify_fail">获取新消息通知失败</string>
+    <string name="rc_setting_name">设置</string>
+    <string name="rc_setting_set_top">置顶</string>
+    <string name="rc_setting_set_top_fail">设置置顶失败</string>
+    <string name="rc_voice_cancel">松开手指，取消发送</string>
+    <string name="rc_voice_dialog_cancel_send">松开手指，取消发送</string>
+    <string name="rc_voice_dialog_swipe">手指上滑，取消发送</string>
+    <string name="rc_voice_dialog_time_short">说话时间太短</string>
+    <string name="rc_voice_failure">录音失败！</string>
+    <string name="rc_voice_rec">手指上滑，取消发送</string>
+    <string name="rc_voice_short">录音时间太短</string>
+    <string name="rc_voip_cpu_error">很抱歉，该功能暂时不支持您的机型</string>
+    <string name="rc_waiting">等待中</string>
+    <string name="rc_yes">是</string>
+    <string name="rc_yesterday_format">昨天 %1$s</string>
+    <string name="SaveCarBean">%1$d 秒后重新获取</string>
+    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
+    <string name="abc_search_hint">Search…</string>
+    <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="aboutus_note">"\u0009\u0009典典养车是杭州小卡科技有限公司的拳头产品之一，公司创始于美丽的西子湖畔——杭州，典典养车被誉为汽车后市场的“养车神器”；
+ \u0009\u0009典典养车是专业的“汽车后市场”O2O移动服务平台，手机定位寻找附近的汽车养护店，满足用户2公里内的所有汽车养护需求，C2B的定制模式，车主选择对应的服务类目，通过典典养车的优质商户优选性价比最高的服务项目，一键下单，便捷支付。典典养车服务范围包括车险、洗车、保养、美容、油漆、轮胎、救援、代办、加油卡充值等。通过一年时间深耕细作的运营，“典典养车”现已是汽车后市场服务的标杆产品，并与典典车险实现了完美的融合对接，将更高效，更便捷的为您及爱车提供全方位的服务体验。
+ \u0009\u0009典典养车通过一年的努力，目前已经覆盖到30个城市，拥有600多万车主，支持汽车养护服务的商户达20000家之多。2015年，典典养车计划服务近百个城市，把用户和商户通过最优质的服务连接起来，让整个车后市场的服务呈现规模化，规范化的态势。
+
+ 客服热线：400 885 9797
+ 微信公众号：典典养车
+ 人才招聘邮箱：HR@xiaokakeji.com
+ 商务合作邮箱：bd@xiaokakeji.com
+ 品牌公关邮箱：Co-branding@xiaokakeji.com"</string>
+
+    <string name="add_and_query">保存并去查询</string>
+    <string name="add_car">添加车辆</string>
+    <string name="add_query_car">新增查询车辆</string>
+    <string name="affirm">确认</string>
+    <string name="alipay_faile">支付取消</string>
+    <string name="alipay_handle">支付结果确认中</string>
+    <string name="alipay_success">支付成功</string>
+    <string name="alipay_version_low">您未安装支付宝钱包或者版本过低</string>
+    <string name="app_name">典典养车</string>
+    <string name="appointment">需预约</string>
+    <string name="ask_expert_hint">真人专家 实时解答</string>
+    <string name="auth_status_content_0">未认证</string>
+    <string name="auth_status_content_1">认证中</string>
+    <string name="auth_status_content_2">已认证</string>
+    <string name="auth_status_content_3">认证失败</string>
+    <string name="auth_status_content_4">认证失效</string>
+    <string name="biz_item_att_str">态度: &lt;font color=#ff6600>SCORE&lt;/font></string>
+    <string name="biz_item_env_str">环境: &lt;font color=#ff6600>SCORE&lt;/font></string>
+    <string name="biz_item_intime_str">守时: &lt;font color=#ff6600>SCORE&lt;/font></string>
+    <string name="biz_item_service_str">服务: &lt;font color=#ff6600>SCORE&lt;/font></string>
+    <string name="biz_item_tech_str">技术: &lt;font color=#ff6600>SCORE&lt;/font></string>
+    <string name="bottom_tab_home">首页</string>
+    <string name="bottom_tab_my">我的</string>
+    <string name="bottom_tab_order">订单</string>
+    <string name="brand_series">品牌车系</string>
+    <string name="brand_series_hint">选择品牌车系</string>
+    <string name="break_the_rules_none">否</string>
+    <string name="break_the_rules_unknow">未知</string>
+    <string name="break_the_rules_yes">是</string>
+    <string name="cancel">取消</string>
+    <string name="car_city">行驶城市</string>
+    <string name="car_city_hint">选择行驶城市</string>
+    <string name="car_model">车 型</string>
+    <string name="car_more_info_hint">更多详细信息</string>
+    <string name="car_wash_discount_text">洗车抵扣用</string>
+    <string name="car_wash_one">洗车只需一元</string>
+    <string name="cbt_head_tip">注：凡是用典典养车app软件支付的车主都可以享受车宝通质保。请尽量使用在支付或到店扫二维码支付完成交易.</string>
+    <string name="cheaper_title">便宜点</string>
+    <string name="chebaotong_sub_title">商家已缴纳质保金，在线支付订单均享受平台质保！</string>
+    <string name="chebaotong_title">车宝通认证商家</string>
+    <string name="chezhuxinxiankan_sub_title">问答 每日语音</string>
+    <string name="chezhuxinxiankan_title">车主新鲜看</string>
+    <string name="commercial_insure_end_time">商业险到期时间</string>
+    <string name="common_money_label">¥</string>
+    <string name="complaint_tip_str">您对此商家服务不满意的话，请留下您的理由和图片证据，系统将审核投诉</string>
+    <string name="complete">完成</string>
+    <string name="create_time">创建时间</string>
+    <string name="ddcx_Insurance_amount_money">保单面额：</string>
+    <string name="ddcx_about_content">"长的帅果然藏哪都会被发现，好忧伤~
+快让小伙伴扫一扫，帅瞎他吧！"</string>
+    <string name="ddcx_about_text">典典车险是杭州小卡科技有限公司旗下产品，专业的“汽车保险”的服务平台；典典车险可一键完成比价，支付，出保单，只需要花10分钟就能买车险，让您不用再接无休止的保险公司电话。</string>
+    <string name="ddcx_accept_text">确定</string>
+    <string name="ddcx_action_settings">Settings</string>
+    <string name="ddcx_address">收件地址：</string>
+    <string name="ddcx_addressee">收  件  人：</string>
+    <string name="ddcx_advance_pay_success_text">我们可能会通过0571开头的电话联系您。如果您有任何疑问，也可以自主拔打%s进行咨询。</string>
+    <string name="ddcx_advance_price">预付金额</string>
+    <string name="ddcx_advance_success_text">预购成功</string>
+    <string name="ddcx_advance_text">预购</string>
+    <string name="ddcx_affirm_refund">确认退款</string>
+    <string name="ddcx_alipay_faile">支付取消</string>
+    <string name="ddcx_alipay_handle">支付结果确认中</string>
+    <string name="ddcx_alipay_success">支付成功</string>
+    <string name="ddcx_alipay_version_low">您未安装支付宝钱包或者版本过低</string>
+    <string name="ddcx_already_pay_advance">预付金额</string>
+    <string name="ddcx_app_name">典典车险</string>
+    <string name="ddcx_authentication_failed">认证失败</string>
+    <string name="ddcx_balance_payment">尾款金额</string>
+    <string name="ddcx_bei_jing_message_hint">请输入您收到的短信验证码</string>
+    <string name="ddcx_bei_jing_text">验证码由北京保险行业协会发送，有效期10分钟</string>
+    <string name="ddcx_brand_series">品牌车系</string>
+    <string name="ddcx_brand_series_hint">选择品牌车系</string>
+    <string name="ddcx_break_rule">是否有违章</string>
+    <string name="ddcx_break_rule_type_two">是否有违章:</string>
+    <string name="ddcx_break_the_rules_none">否</string>
+    <string name="ddcx_break_the_rules_unknow">未知</string>
+    <string name="ddcx_break_the_rules_yes">是</string>
+    <string name="ddcx_business_start_time">商业险到期时间</string>
+    <string name="ddcx_buy_limit_status1">投保车辆座位数大于9</string>
+    <string name="ddcx_buy_limit_status2">投保车辆类型暂时不支持购买车险</string>
+    <string name="ddcx_buy_limit_status3">投保车辆对应的车辆使用性质受限</string>
+    <string name="ddcx_buy_limit_tip">新车购置价为空，不能进入车险方案页面</string>
+    <string name="ddcx_call_insurance_company">联系商家</string>
+    <string name="ddcx_call_xiao_ka">联系客服</string>
+    <string name="ddcx_camera_text">拍照</string>
+    <string name="ddcx_cancel_str">取消</string>
+    <string name="ddcx_car">车辆车系</string>
+    <string name="ddcx_car_brand">车辆品牌</string>
+    <string name="ddcx_car_brand_hint">选择品牌车系</string>
+    <string name="ddcx_car_city">投保城市</string>
+    <string name="ddcx_car_city_hint">选择投保城市</string>
+    <string name="ddcx_car_claims">理赔次数</string>
+    <string name="ddcx_car_hint">选择车系</string>
+    <string name="ddcx_car_info">车辆信息</string>
+    <string name="ddcx_car_insurance_scheme">车险方案</string>
+    <string name="ddcx_car_model">车辆车型</string>
+    <string name="ddcx_car_model_hint">选择车型</string>
+    <string name="ddcx_car_number_city">选择车牌</string>
+    <string name="ddcx_car_owner_select">车主选择</string>
+    <string name="ddcx_change_text">修改</string>
+    <string name="ddcx_city_no_open">城市未开通,请等待</string>
+    <string name="ddcx_claims">理赔情况</string>
+    <string name="ddcx_clean_title">只花%s元</string>
+    <string name="ddcx_comfirm_order_addr">收件人信息</string>
+    <string name="ddcx_comfirm_order_title">上传资料信息</string>
+    <string name="ddcx_commercial_insurance_start_time_text">商业险生效时间</string>
+    <string name="ddcx_commercial_insure_effect_time">商业险生效时间</string>
+    <string name="ddcx_commercial_insure_end_time">上次商业险生效时间</string>
+    <string name="ddcx_commercial_policy_number_text">商业险保单号:</string>
+    <string name="ddcx_commit_driving_license">上传行驶证</string>
+    <string name="ddcx_commit_order">提交订单</string>
+    <string name="ddcx_commit_success">提交成功</string>
+    <string name="ddcx_common_question_text">常见问题</string>
+    <string name="ddcx_compare_price_text">比比价</string>
+    <string name="ddcx_complete_text">完成</string>
+    <string name="ddcx_contact_text">400-885-9797</string>
+    <string name="ddcx_convert_gift">有一个礼包尚未兑换</string>
+    <string name="ddcx_coupon_describe">红包可抵扣预付款，不需额外支付</string>
+    <string name="ddcx_coupon_exchange_title">兑换礼包券</string>
+    <string name="ddcx_coupon_get_hint_type_one">随保单信封附送</string>
+    <string name="ddcx_coupon_get_hint_type_two">现金券使用之后可再领取</string>
+    <string name="ddcx_coupon_send_out">赠送用户礼品成功</string>
+    <string name="ddcx_coupon_type_description_type_one">购买商业险即可免费获赠</string>
+    <string name="ddcx_coupon_type_description_type_three">购险之后即可享受</string>
+    <string name="ddcx_coupon_type_description_type_two">付款时自动抵扣商业保险费用</string>
+    <string name="ddcx_coupon_type_title_byq">【养车点点】1元保养券</string>
+    <string name="ddcx_coupon_type_title_jyk">【加油卡】价值%s元</string>
+    <string name="ddcx_coupon_type_title_xcq">【养车点点】每周一张1元洗车券</string>
+    <string name="ddcx_coupon_type_title_xjq">【典典车险】30元现金券</string>
+    <string name="ddcx_date_insurance">确认方案,我要核保</string>
+    <string name="ddcx_deduction_price">抵扣金额</string>
+    <string name="ddcx_default_failed_cause">保单问题，请联系客服。</string>
+    <string name="ddcx_default_loading_message">请等待...</string>
+    <string name="ddcx_default_text">[默认]</string>
+    <string name="ddcx_delete_car">删除该车型</string>
+    <string name="ddcx_delete_text">删除</string>
+    <string name="ddcx_dialog_addressee_context">确定要删除收件人信息？</string>
+    <string name="ddcx_dialog_cnacle_order_context">确定需要取消订单?</string>
+    <string name="ddcx_dialog_insure_context">确定要删除被保人信息？</string>
+    <string name="ddcx_dian_dian_present">洗车券|加油卡</string>
+    <string name="ddcx_dian_dian_quote">典典报价</string>
+    <string name="ddcx_dian_dian_quote_hint">最终报价、优惠折扣以实际核保价格为准，享受原价理赔服务</string>
+    <string name="ddcx_driving_authenticationing">行驶证认证中</string>
+    <string name="ddcx_driving_license_authenticating">查看订单</string>
+    <string name="ddcx_driving_license_authentication_failed">等待核保，查看订单</string>
+    <string name="ddcx_driving_license_linvalid">行驶证失效</string>
+    <string name="ddcx_dummy_button">Dummy Button</string>
+    <string name="ddcx_dummy_content">"DUMMY
+CONTENT"</string>
+    <string name="ddcx_end_time">到期时间</string>
+    <string name="ddcx_exist_order">已有一笔订单</string>
+    <string name="ddcx_failed_cause">失败原因：</string>
+    <string name="ddcx_feedback_confirm_error">请填写意见</string>
+    <string name="ddcx_feedback_contact_hint">填写你的QQ或邮箱,方便我们联系</string>
+    <string name="ddcx_feedback_content_hint">写下你的问题和建议吧</string>
+    <string name="ddcx_feedback_title">意见反馈</string>
+    <string name="ddcx_goto_convert">去兑换 ></string>
+    <string name="ddcx_have_a_coupon">有一个礼包券尚未兑换</string>
+    <string name="ddcx_hello_world">Hello world!</string>
+    <string name="ddcx_hint_address_text">请填写详细地址</string>
+    <string name="ddcx_hint_identity_number_text">请填写身份证号</string>
+    <string name="ddcx_hint_input_identity_insured_icon_text">请上传 %s(被保人)身份证照片:</string>
+    <string name="ddcx_hint_input_identity_number_text">请填写%s(车主)身份证信息:</string>
+    <string name="ddcx_hint_input_identity_owner_icon_text">请上传 %s(车主)身份证照片:</string>
+    <string name="ddcx_hint_name_text">请填写姓名</string>
+    <string name="ddcx_hint_phone_text">请填写手机号</string>
+    <string name="ddcx_hint_text">提示</string>
+    <string name="ddcx_home_logo_tip_one">买车险  找典典</string>
+    <string name="ddcx_home_logo_tip_two">请完成行驶证认证后购险</string>
+    <string name="ddcx_how_many_seconds_again">%1$d 秒后重新获取</string>
+    <string name="ddcx_identity_number_match">0123456789Xx</string>
+    <string name="ddcx_immediately_commit">立即上传</string>
+    <string name="ddcx_input_verification_code_text">请输入验证码</string>
+    <string name="ddcx_ins_reference">以上仅供参考，具体的保障责任、责任免除等内容请参见保险条款。</string>
+    <string name="ddcx_insurance_address">收件人地址</string>
+    <string name="ddcx_insurance_common">奔小康</string>
+    <string name="ddcx_insurance_economy">温饱餐</string>
+    <string name="ddcx_insurance_expire">保险未到期，请先试算</string>
+    <string name="ddcx_insurance_plan_content_buy_tip">最终价格已保单实际金额为准</string>
+    <string name="ddcx_insurance_policy_delivery_date">你的保存单将于10内送达，敬请查收</string>
+    <string name="ddcx_insurance_policy_number_text">保单号信息</string>
+    <string name="ddcx_insurance_price">保单面额</string>
+    <string name="ddcx_insurance_revel">随缘吧</string>
+    <string name="ddcx_insurance_streaking">裸奔咯</string>
+    <string name="ddcx_insurance_time_modify">时间不对？修改</string>
+    <string name="ddcx_insurance_time_out">车险已到可购买时间</string>
+    <string name="ddcx_insurance_trial">我要试算</string>
+    <string name="ddcx_insured_car">被保车辆</string>
+    <string name="ddcx_item_gas_name">赠: %s元加油充值卡</string>
+    <string name="ddcx_item_gas_tip">如不需要油卡可勾选,按8折直接抵扣保险费</string>
+    <string name="ddcx_item_time">有效期: %s</string>
+    <string name="ddcx_item_yang_tip">去典典养车使用车险赠礼 ></string>
+    <string name="ddcx_last_text">注：交强险和商业险的到期时间是你新保单开始时间</string>
+    <string name="ddcx_login">登录</string>
+    <string name="ddcx_login_code_hint">输入短信验证码</string>
+    <string name="ddcx_login_get_code">获取验证码</string>
+    <string name="ddcx_login_title">用户登陆</string>
+    <string name="ddcx_login_top_tip">为了防止用户信息被盗用，请使用本机号码登录</string>
+    <string name="ddcx_logistics_info">物流信息</string>
+    <string name="ddcx_look_at_order">查看订单</string>
+    <string name="ddcx_look_look">去查看</string>
+    <string name="ddcx_mandatory_insurance_start_time_text">交强险生效时间</string>
+    <string name="ddcx_mandatory_insure_effect_time">交强险生效时间</string>
+    <string name="ddcx_mandatory_insure_end_time">上次交强险生效时间</string>
+    <string name="ddcx_mandatory_policy_number_text">交强险保单号:</string>
+    <string name="ddcx_mod_exp_data_tip_content">温馨提示：可购买时间以交强险到期时间判定</string>
+    <string name="ddcx_modify_expiredate_title">修改日期</string>
+    <string name="ddcx_my_coupon_str">我的赠礼</string>
+    <string name="ddcx_my_order">车险订单</string>
+    <string name="ddcx_next_buy_distance_day">距离可购买时间</string>
+    <string name="ddcx_no_address_tip">请添加收件人地址</string>
+    <string name="ddcx_no_commit_driving_license">未上传行驶证</string>
+    <string name="ddcx_no_insured_tip">未获取到被保人信息</string>
+    <string name="ddcx_no_network">没有连接到网络,请检查！</string>
+    <string name="ddcx_no_order_decord_info">暂无订单记录信息</string>
+    <string name="ddcx_nodate_insurance">车险未到期,离正式购险还有%s天!</string>
+    <string name="ddcx_not_received_code">没有收到验证码?</string>
+    <string name="ddcx_order_car_num">车牌号码</string>
+    <string name="ddcx_order_delete_failed">操作失败</string>
+    <string name="ddcx_order_delete_success">订单已取消</string>
+    <string name="ddcx_order_detail_text">订单详情</string>
+    <string name="ddcx_order_list_title">我的订单</string>
+    <string name="ddcx_order_record">操作记录</string>
+    <string name="ddcx_order_status_err">订单异常</string>
+    <string name="ddcx_order_type_err">订单类型异常</string>
+    <string name="ddcx_order_verify_time_hint">订单将于下一个工作日内核保，请耐心等待！</string>
+    <string name="ddcx_pay">支付</string>
+    <string name="ddcx_photo_text">相册</string>
+    <string name="ddcx_picture_discern">照片过于模糊</string>
+    <string name="ddcx_plate_number">车牌号码</string>
+    <string name="ddcx_plate_number_hint">填写车牌号</string>
+    <string name="ddcx_please_input_identity_info">请输入正确的身份证信息</string>
+    <string name="ddcx_please_wait">请等待</string>
+    <string name="ddcx_postscript">附言：</string>
+    <string name="ddcx_present_account_text">赠送帐户</string>
+    <string name="ddcx_present_coupon_user_phone_number">请输入你要赠送用户手机号</string>
+    <string name="ddcx_promptly_convert_coupon_text">立即兑换礼券</string>
+    <string name="ddcx_purchase_text">购买</string>
+    <string name="ddcx_recognizee">被  保  人</string>
+    <string name="ddcx_refund">退款</string>
+    <string name="ddcx_refund_advance">退预付款</string>
+    <string name="ddcx_refund_amount">退款金额</string>
+    <string name="ddcx_refund_context">"1. 48小时内可无条件退款
+2. 退款将在24小时内原路退还
+3. 将扣除已使用的洗车券的费用(10元/张)"</string>
+    <string name="ddcx_refund_hint">退款金额：</string>
+    <string name="ddcx_refund_hint_two">退款金额</string>
+    <string name="ddcx_repeat_upload">重新上传</string>
+    <string name="ddcx_run_city">行驶城市</string>
+    <string name="ddcx_save">提交</string>
+    <string name="ddcx_save_text">保存</string>
+    <string name="ddcx_scan_tips">将二维码图片对准扫描框即可自动扫描</string>
+    <string name="ddcx_scan_title">二维码扫描</string>
+    <string name="ddcx_select_car">请先选择车辆车系</string>
+    <string name="ddcx_select_car_brand">请先选择车辆品牌</string>
+    <string name="ddcx_select_car_city">选择城市</string>
+    <string name="ddcx_select_convert_item">请选择兑换项</string>
+    <string name="ddcx_select_count">选择次数</string>
+    <string name="ddcx_select_time">选择日期</string>
+    <string name="ddcx_service_protocol_title">服务条款</string>
+    <string name="ddcx_set_title">设置</string>
+    <string name="ddcx_song_nian_ka">有机会获赠典典养车年卡</string>
+    <string name="ddcx_start_spreadsheet">开始试算</string>
+    <string name="ddcx_start_time">开始时间</string>
+    <string name="ddcx_still_need_to_pay">还需支付</string>
+    <string name="ddcx_string_advance">预付款：</string>
+    <string name="ddcx_string_advance_text">预付款</string>
+    <string name="ddcx_strong_start_time">交强险到期时间</string>
+    <string name="ddcx_telephone_text">通话</string>
+    <string name="ddcx_terms_of_service">服务条款</string>
+    <string name="ddcx_terms_of_service_tip">同意并接受典典养车的</string>
+    <string name="ddcx_test_text">aaaaaa</string>
+    <string name="ddcx_title_activity_advance_success">AdvanceSuccessActivity</string>
+    <string name="ddcx_title_activity_commit_identity">完善出保信息</string>
+    <string name="ddcx_title_activity_commit_order">CommitOrderActivity</string>
+    <string name="ddcx_total_price">全款金额</string>
+    <string name="ddcx_tousu_num">4008859797</string>
+    <string name="ddcx_underwriting_pic_text">上传资料</string>
+    <string name="ddcx_underwriting_price_text">实付金额</string>
+    <string name="ddcx_upload_success">上传成功</string>
+    <string name="ddcx_valid_range">有效期：</string>
+    <string name="ddcx_wait_generate_insurance_policy">等待出保单</string>
+    <string name="ddcx_wait_pay">核保成功，去支付订单</string>
+    <string name="ddcx_wait_underwriting">等待核保，查看订单</string>
+    <string name="ddcx_wechat_client_inavailable">您未安装微信客户端，请选择其他支付方式</string>
+    <string name="default_loading_message">请等待...</string>
+    <string name="delete_car">删除该车型</string>
+    <string name="douban">豆瓣</string>
+    <string name="dropbox">Dropbox</string>
+    <string name="email">邮件</string>
+    <string name="engine_number">发动机号</string>
+    <string name="engine_number_hint">输入后%1$s位发动机号</string>
+    <string name="evernote">印象笔记</string>
+    <string name="exchange_code">如有兑换码,请到这里兑换</string>
+    <string name="extras">询价内容</string>
+    <string name="facebook">Facebook</string>
+    <string name="fail_car_info">获取默认车辆信息失败</string>
+    <string name="flickr">Flickr</string>
+    <string name="foursquare">FourSquare</string>
+    <string name="frame_number">车架号码</string>
+    <string name="frame_number_hint">输入后%1$s位车架号</string>
+    <string name="gallery">相册</string>
+    <string name="gallery_max_select_num">最多选择%1$d张图片</string>
+    <string name="google_plus_client_inavailable">Google+ 版本过低或者没有安装，需要升级或安装Google+才能使用！</string>
+    <string name="googleplus">Google+</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hint_wash_daddress">在哪洗车</string>
+    <string name="hint_wash_date">希望什么时候服务</string>
+    <string name="home_activity_sub_title">分享给微信好友</string>
+    <string name="home_ask_title">问答新玩法</string>
+    <string name="home_asl_sub_title">语音说车/微信问答</string>
+    <string name="home_ddcx_title">洗车年卡,全年免费洗车</string>
+    <string name="home_dialog_add_car">先添加车辆信息 才能洗车</string>
+    <string name="home_dialog_btn_cancel_desc">查看我的洗车券</string>
+    <string name="home_dialog_btn_confirm_desc">现在进去洗车</string>
+    <string name="home_dialog_desc">获得一张一元洗车券，现在去洗车，洗完只需支付1元即可</string>
+    <string name="home_violation_query">查违章</string>
+    <string name="home_violation_query_hint">添加车辆查询</string>
+    <string name="how_many_seconds_again">%1$d 秒后重新获取</string>
+    <string name="input_hint">点击输入</string>
+    <string name="instagram">Instagram</string>
+    <string name="instagram_client_inavailable">Instagram版本过低或者没有安装，需要升级或安装Instagram才能使用！</string>
+    <string name="kaixin">开心网</string>
+    <string name="license_info">行驶证信息</string>
+    <string name="line">Line</string>
+    <string name="line_client_inavailable">目前您的Line版本过低或未安装易信，需要安装Line才能使用</string>
+    <string name="linkedin">领英</string>
+    <string name="login">登录</string>
+    <string name="login_code_hint">输入短信验证码</string>
+    <string name="login_get_code">获取验证码</string>
+    <string name="login_phone_hint">输入手机号码</string>
+    <string name="login_top_tip">为了防止用户信息被盗用，请使用本机号码登录</string>
+    <string name="maintain_detail">保养详情</string>
+    <string name="maintain_info">保养信息</string>
+    <string name="mandatory_insure_end_time">交强险到期时间</string>
+    <string name="mingdao">明道</string>
+    <string name="mingdao_share_content">网页分享</string>
+    <string name="modify_nickname">修改昵称</string>
+    <string name="my_balance">余额</string>
+    <string name="my_car">我的车辆</string>
+    <string name="my_hongbao">红包</string>
+    <string name="my_ticket">券</string>
+    <string name="net_none">网络未连接，请检查.</string>
+    <string name="neteasemicroblog">网易微博</string>
+    <string name="nickname_not_null">昵称不能为空</string>
+    <string name="no_violation_info">没有违章信息</string>
+    <string name="not_received_code">没有收到验证码?</string>
+    <string name="one_key_maintaining">一键保养</string>
+    <string name="one_key_maintaining_hint">登录获取保养配置方案</string>
+    <string name="one_key_wash_car">一键洗车</string>
+    <string name="one_key_wash_car_hint">新上线上门洗车,积分也可以当红包用啦</string>
+    <string name="order_date_succeed">预约成功，请等待商家报价</string>
+    <string name="order_detail">订单详情</string>
+    <string name="order_status">订单状态</string>
+    <string name="pinterest">Pinterest</string>
+    <string name="pinterest_client_inavailable">Pinterest版本过低或者没有安装，需要升级或安装Pinterest才能使用！</string>
+    <string name="plate_number">车牌号码</string>
+    <string name="plate_number_hint">填写车牌号</string>
+    <string name="publish_dialog_content">发红包给好友，您的好友们点击后 就可马上获得典典养车红包，您自己也可以去抢购哟！</string>
+    <string name="qq">QQ</string>
+    <string name="qq_client_inavailable">QQ 版本过低或者没有安装，需要升级或安装QQ才能使用！</string>
+    <string name="query_city">查询城市</string>
+    <string name="query_city_hint">选择查询城市</string>
+    <string name="qzone">QQ空间</string>
+    <string name="remarks">询价附言</string>
+    <string name="renren">人人网</string>
+    <string name="save">保存</string>
+    <string name="sdcard_not_exist">请先插入SD卡</string>
+    <string name="select_car_model_hint">请选择车型</string>
+    <string name="select_oil">选择机油</string>
+    <string name="select_time">请选择到店时间</string>
+    <string name="select_tire">选择轮胎</string>
+    <string name="service_item_content">"各位车主您好，欢迎您使用典典养车APP服务！
+ 特别提示：
+ 在使用典典养车APP服务之前，车主应当认真阅读并遵守《典典养车服务协议》（以下简称“本协议”），请您务必审慎阅读、充分理解各条款内容。如您对协议有任何疑问的，应向典典养车客服咨询（客服QQ：2112008584 客服电话： 0571-87207587）。
+ 当您按照注册页面提示填写信息、阅读并同意本协议且完成全部注册程序后，或您按照激活页面提示填写信息、阅读并同意本协议且完成全部激活程序后，或您以其他典典养车允许的方式实际使用典典养车APP服务时，即表示您已充分阅读、理解并接受本协议的全部内容，并与典典养车APP达成协议。您承诺接受并遵守本协议的约定， 届时您不应以未阅读本协议的内容或者未获得典典养车对您问询的解答等理由，主张本协议无效，或要求撤销本协议。
+ 一、 协议范围
+ 1、本协议由您与典典养车APP的经营者共同缔结，本协议具有合同效力。
+ 典典养车APP的经营者是指法律认可的经营典典养车APP的责任主体，典典养车APP包括但不限于典典养车APP（域名为 chediandian.com.cn），本协议项下典典养车APP的经营者可单称或合称为“典典养车”。有关典典养车APP经营者的信息请查典典养车官网首页底部公布的公司信息和证照信息。
+ 2、除另行明确声明外，典典养车APP服务包含任何典典养车及其关联公司提供的基于互联网以及移动网的相关服务，且均受本协议约束。如果您不同意本协议的约定，您应立即停止注册/激活程序或停止使用典典养车APP服务。
+ 3、本协议内容包括协议正文、法律声明、《典典养车规则》及所有典典养车已经发布或将来可能发布的各类规则、公告或通知（以下合称“典典养车规则”或“规则”）。所有规则为本协议不可分割的组成部分，与协议正文具有同等法律效力。
+ 4、典典养车有权根据需要不时地制订、修改本协议及/或各类规则，并以公示的方式进行变更公告，无需另行单独通知您。变更后的协议和规则一经在公布后，立即或在公告明确的特定时间自动生效。若您在前述变更公告后继续使用典典养车APP服务的，即表示您已经阅读、理解并接受经修订的协议和规则。若您不同意相关变更，应当立即停止使用典典养车APP服务。
+ 二、 注册与账户
+ 1、主体资格
+ 您确认，在您完成注册程序或以其他典典养车允许的方式实际使用典典养车APP服务时，您应当是具备完全民事行为能权利能力和完全民事力的自然人、法人或其他组织。
+ 2、注册和账户
+ a）当您按照注册页面提示填写信息、阅读并同意本协议且完成全部注册程序后，或在您按照激活页面提示填写信息、阅读并同意本协议且完成全部激活程序后，或您以其他典典养车允许的方式实际使用典典养车APP服务时，您即受本协议约束。您可以使用您提供或确认手机号码或者典典养车允许的其它方式作为登录手段进入典典养车APP。
+ b）您了解并同意，如您在典典养车APP注册成功，您在此明确授权，您的账户注册信息在您通过典典养车APP注册成功时，已授权典典养车使用，以使您更便捷地使用典典养车服务。
+ c）您可以对账户设置典典养车昵称。您设置的典典养车昵称不得侵犯或涉嫌侵犯他人合法权益。如您设置的典典养车昵称涉嫌侵犯他人合法权益，典典养车有权终止向您提供典典养车APP服务，注销您的典典养车昵称。典典养车昵称被注销后将开放给任意用户注册。
+ 3、用户信息
+ a）在注册或激活流程时，您应当依照法律法规要求，按相应页面的提示准确提供您的资料，并于资料信息变更时及时更新，以保证您所提交资料的真实、及时、完整和准确。如有合理理由怀疑您提供的资料错误、不实、过时或不完整的，典典养车有权向您发出询问及/或要求改正的通知，并有权直接做出删除相应资料的处理，直至中止、终止对您提供部分或全部典典养车APP服务。典典养车对此不承担任何责任，您将承担因此产生的任何直接或间接损失及不利后果。
+ b）您应当准确填写并及时更新您提供的联系电话、车辆信息等联系方式，以便典典养车或其他商户与您进行有效联系，因通过这些联系方式无法与您取得联系，导致您在使用典典养车APP服务过程中产生任何损失或增加费用的，应由您完全独自承担。您了解并同意，您有义务保持你提供的联系方式的真实性和有效性，如有变更或需要更新的，您应按典典养车的要求进行操作。
+ 4、账户安全
+ 您须自行负责对您的典典养车登录手机号码和验证码的保密，且须对您在该登录名、典典养车和验证码下发生的所有活动（包括但不限于信息披露、发布信息、网上点击同意或提交各类规则协议、网上续签协议或购买服务等）承担责任。您同意：(a) 如发现任何人未经授权使用您的典典养车昵称和验证码，或发生违反保密规定的任何其他情况，您会立即通知典典养车，并授权典典养车将该信息同步给典典养车；及 (b) 确保您在每个上网时段结束时，以正确步骤离开/服务。典典养车不能也不会对因您未能遵守本款规定而发生的任何损失负责。您理解典典养车对您的请求采取行动需要合理时间，典典养车对在采取行动前已经产生的后果（包括但不限于您的任何损失）不承担任何责任。
+ 5、典典养车登录名注销
+ a）如您连续12个月未使用您的手机或典典养车认可的其他方式和验证码登录过典典养车APP，也未登录过其他任意典典养车，且您的账户下不存在未到期的有效业务，您的典典养车账号可能被注销，不能再登录典典养车，所有典典养车服务同时终止。
+ b）您同意并授权典典养车，您如在典典养车有欺诈、发布或销售假冒伪劣/侵权商品、侵犯他人合法权益或其他违反法律法规、典典养车规则等行为，该在典典养车的范围内对此有权披露，您的典典养车登录名可能被注销、不能再登录典典养车，所有典典养车服务同时终止。
+ 三、 典典养车APP服务
+ 1、通过典典养车提供服务，商户可在典典养车APP上预约洗车、发布信息、查询商品和服务信息、达成交易意向并进行交易、对其他商户进行评价、参加典典养车组织的活动以及使用其它信息服务及技术服务，具体以所开通的APP提供的服务内容为准。
+ 2、您在典典养车APP上交易过程中与其他商户发生交易纠纷时，一旦您或其它商户任一方或双方共同提交典典养车要求调处，则典典养车作为独立第三方，有权根据单方判断做出调处决定，您了解并同意接受典典养车的判断和调处决定。
+ 3、您了解并同意，典典养车有权应政府部门（包括司法及行政部门）的要求，向其提供您向典典养车提供的用户信息和交易记录等必要信息。如您涉嫌侵犯他人知识产权等合法权益，则典典养车亦有权在初步判断涉嫌侵权行为存在的情况下，向权利人提供您必要的身份信息。
+ 4、您在使用典典养车APP服务过程中，所产生的应纳税赋，以及一切硬件、软件、服务及其它方面的费用，均由您独自承担。
+ 四、典典养车APP服务使用规范
+ 1、在典典养车APP上使用典典养车服务过程中，您承诺遵守以下约定：
+ a)实施的所有行为均遵守国家法律、法规等规范性文件及典典养车APP各项规则的规定和要求，不违背社会公共利益或公共道德，不损害他人的合法权益，不偷逃应缴税费，不违反本协议及相关规则。
+ b) 不以虚构或歪曲事实的方式不当评价其他商户，不采取不正当方式制造或提高自身的信用度，不采取不正当方式制造或提高（降低）其他商户的信用度。
+ c)不对典典养车APP上的任何数据作商业性利用，包括但不限于在未经典典养车事先书面同意的情况下，以复制、传播等任何方式使用典典养车APP站上展示的资料。
+ d)不使用任何装置、软件或例行程序干预或试图干预典典养车APP的正常运作或正在典典养车APP上进行的任何交易、活动。您不得采取任何将导致不合理的庞大数据负载加诸典典养车APP网络设备的行动。
+ 2、您了解并同意： a)您如果违反前述承诺，产生任何法律后果的，您应以自己的名义独立承担所有的法律责任，并确保典典养车免于因此产生任何损失或增加费用。
+ b)基于维护典典养车APP交易秩序及交易安全的需要，典典养车有权在发生恶意购买等扰乱市场正常交易秩序的情形下，执行关闭相应交易订单等操作。
+ c)经国家行政或司法机关的生效法律文书确认您存在违法或侵权行为，或者典典养车根据自身的判断，认为您的行为涉嫌违反法律法规的规定或涉嫌违反本协议和/或规则的条款的，则典典养车有权在典典养车APP上公示您的该等涉嫌违法或违约行为及典典养车已对您采取的措施。
+ d)对于您在典典养车APP上发布的涉嫌违法、涉嫌侵犯他人合法权利或违反本协议和/或规则的信息，典典养车有权不经通知您即予以删除，且按照规则的规定进行处罚。
+ e)对于您违反本协议项下承诺，或您在典典养车APP上实施的行为，包括您未在典典养车APP上实施但已经对典典养车APP及其用户产生影响的行为，典典养车有权单方认定您行为的性质及是否构成对本协议和/或规则的违反，并根据单方认定结果适用规则予以处理或终止向您提供服务，且无须征得您的同意或提前通知予您。您应自行保存与您行为有关的全部证据，并应对无法提供充要证据而承担的不利后果。
+ f)如您涉嫌违反有关法律或者本协议之规定，使典典养车遭受任何损失，或受到任何第三方的索赔，或受到任何行政管理部门的处罚，您应当赔偿典典养车因此造成的损失和/或发生的费用，包括合理的律师费用。
+ 五、特别授权
+ 您完全理解并不可撤销地授予典典养车公司下列权利：
+ 1、您完全理解并不可撤销地授权典典养车或典典养车授权的第三方或您与典典养车一致同意的第三方，根据本协议及典典养车规则的规定，处理您在典典养车APP上发生的所有交易及可能产生的交易纠纷。您同意接受典典养车或典典养车授权的第三方或您与典典养车一致同意的第三方的判断和调处决定。该决定将对您具有法律约束力。
+ 2、一旦您向典典养车作出任何形式的承诺，且相关公司已确认您违反了该承诺，则典典养车有权立即按您的承诺或协议约定的方式对您的账户采取限制措施，包括中止或终止向您提供服务，并公示相关公司确认的您的违约情况。您了解并同意，典典养车无须就相关确认与您核对事实，或另行征得您的同意，且典典养车无须就此限制措施或公示行为向您承担任何的责任。
+ 3、一旦您违反本协议，或与典典养车签订的其他协议的约定，典典养车有权以任何方式通知典典养车，要求其对您的权益采取限制措施，包括但不限于要求典典养车公司将您账户内的款项支付给典典养车指定的对象，要求典典养车中止、终止对您提供部分或全部服务，且在其经营或实际控制的任何公示您的违约情况。
+ 4、对于您提供的资料及数据信息，您授予典典养车全球通用的、永久的、免费的许可使用权利 (并有权在多个层面对该权利进行再授权)。此外，典典养车有权(全部或部份地) 使用、复制、修订、改写、发布、翻译、分发、执行和展示您的全部资料数据（包括但不限于注册资料、交易行为数据及全部展示于典典养车APP的各类信息）或制作其派生作品，并以现在已知或日后开发的任何形式、媒体或技术，将上述信息纳入其它作品内。
+ 5、为方便您使用典典养车APP服务及典典养车或其他组织的服务（以下称其他服务），您同意并授权典典养车将您在账户注册/激活、使用典典养车APP服务过程中提供、形成的信息传递给向您提供其他服务的典典养车或其他组织，或从提供其他服务的典典养车或其他组织获取您在注册/激活、使用其他服务期间提供、形成的信息。您同意不会因此追究典典养车的责任。
+ 六、责任范围和责任限制
+ 1、典典养车负责按现状和可得到的状态向您提供典典养车APP服务。但典典养车对典典养车APP服务不作任何明示或暗示的保证，包括但不限于典典养车APP服务的适用性、没有错误或疏漏、持续性、准确性、可靠性、适用于某一特定用途。同时，典典养车也不对典典养车APP服务所涉及的技术及信息的有效性、准确性、正确性、可靠性、质量、稳定、完整和及时性作出任何承诺和保证。
+ 2、除非法律法规明确要求，或出现以下情况，否则，典典养车没有义务对所有用户的信息数据、商品和服务信息、交易行为以及与交易有关的其它事项进行事先审查：
+ a)典典养车有合理的理由认为特定商户及具体交易事项可能存在重大违法或违约情形。
+ b)典典养车有合理的理由认为用户在典典养车APP的行为涉嫌违法或不当。
+ 3、典典养车或典典养车授权的第三方或您与典典养车一致同意的第三方有权基于您不可撤销得授权受理您与其他商户因交易产生的争议，并有权单方判断与该争议相关的事实及应适用的规则，进而作出处理决定，包括但不限于调整相关订单的交易状态，指令典典养车公司将争议货款的全部或部分支付给交易一方或双方。该处理决定对您有约束力。
+ 4、您理解并同意，典典养车或典典养车授权的第三方或您与典典养车一致同意的第三方并非司法机构，仅能以普通人的身份对证据进行鉴别，典典养车或典典养车授权的第三方或您与典典养车一致同意的第三方对争议的调处完全是基于您不可撤销得授权，其无法保证争议处理结果符合您的期望，也不对争议调处结论承担任何责任。如您因此遭受损失，您同意自行向受益人索偿。
+ 5、您了解并同意，典典养车不对因下述任一情况而导致您的任何损害赔偿承担责任，包括但不限于利润、商誉、使用、数据等方面的损失或其它无形损失的损害赔偿 (无论典典养车是否已被告知该等损害赔偿的可能性) ：
+ a)使用或未能使用典典养车APP服务。 b)第三方未经批准的使用您的账户或更改您的数据。 c)通过典典养车APP服务购买或获取任何商品、样品、数据、信息或进行交易等行为或替代行为产生的费用及损失。 d)您对典典养车APP服务的误解。 e)任何非因典典养车的原因而引起的与典典养车APP服务有关的其它损失。 6、不论在何种情况下，典典养车均不对由于信息网络正常的设备维护，信息网络连接故障，电脑、通讯或其他系统的故障，电力故障，罢工，劳动争议，暴乱，起义，骚乱，生产力或生产资料不足，火灾，洪水，风暴，爆炸，战争，政府行为，司法行政机关的命令或第三方的不作为而造成的不能服务或延迟服务承担责任。 七、协议终止
+ 1、您同意，典典养车有权自行全权决定以任何理由不经事先通知的中止、终止向您提供部分或全部典典养车APP服务，暂时冻结或永久冻结（注销）您的账户在典典养车APP的权限，且无须为此向您或任何第三方承担任何责任。 2、出现以下情况时，典典养车有权直接以注销账户的方式终止本协议，并有权永久冻结（注销）您的账户在典典养车APP的权限和收回账户对应的典典养车昵称： a)典典养车终止向您提供服务后，您涉嫌再一次直接或间接以他人名义注册为典典养车用户的； b)您提供的用户信息中的主要内容不真实或不准确或不及时或不完整； c)本协议（含规则）变更时，您明示并通知典典养车不愿接受新的服务协议的； d)其它典典养车认为应当终止服务的情况。
+ 3、您的账户服务被终止或者账户在典典养车APP的权限被永久冻结（注销）后，典典养车没有义务为您保留或向您披露您账户中的任何信息，也没有义务向您或第三方转发任何您未曾阅读或发送过的信息。
+ 4、您同意，您与典典养车的合同关系终止后，典典养车仍享有下列权利：
+ a）继续保存您的用户信息及您使用典典养车APP服务期间的所有交易信息。 b)您在使用典典养车APP服务期间存在违法行为或违反本协议和/或规则的行为的，典典养车仍可依据本协议向您主张权利。 5、典典养车中止或终止向您提供典典养车APP服务后，对于您在服务中止或终止之前的交易行为依下列原则处理，您应独力处理并完全承担进行以下处理所产生的任何争议、损失或增加的任何费用，并应确保典典养车免于因此产生任何损失或承担任何费用： a)您在服务中止或终止之前已经在典典养车APP发布的需求及服务尚未交易的，典典养车有权在中止或终止服务的同时删除此项商品或服务的相关信息； b)您在服务中止或终止之前已经与其他商户达成买卖合同，但合同尚未实际履行的，典典养车有权删除该买卖合同及其交易商品或服务的相关信息； c)您在服务中止或终止之前已经与其他商户达成买卖合同且已部分履行的，典典养车可以不删除该项交易，但典典养车有权在中止或终止服务的同时将相关情形通知您的交易对方。
+ 八、隐私权政策 典典养车将在典典养车APP公布并不时修订隐私权政策，隐私权政策构成本协议的有效组成部分。
+ 九、法律适用、管辖与其他 1、本协议之效力、解释、变更、执行与争议解决均适用中华人民共和国大陆地区法律，如无相关法律规定的，则应参照通用国际商业惯例和/或行业惯例。 2、本协议包含了您使用各家典典养车APP需遵守的一般性规范，您在使用某个典典养车APP时还需遵守适用于该APP的特殊性规范。
+"</string>
+    <string name="service_name">服务名称</string>
+    <string name="service_price">项目价格</string>
+    <string name="share_to_mingdao">分享到明道</string>
+    <string name="share_to_qq">分享到QQ</string>
+    <string name="share_to_qzone">分享到QQ空间</string>
+    <string name="share_to_qzone_default">来自%s的分享</string>
+    <string name="shortmessage">信息</string>
+    <string name="sinaweibo">新浪微博</string>
+    <string name="sohumicroblog">搜狐微博</string>
+    <string name="sohusuishenkan">搜狐随身看</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="submit_order">提交订单　马上洗车</string>
+    <string name="sure">确认</string>
+    <string name="tab_messages">普洗</string>
+    <string name="tab_notifications">精洗</string>
+    <string name="tab_photos">高端车清洗</string>
+    <string name="tab_shangmen">上门洗车</string>
+    <string name="tab_stream">全部</string>
+    <string name="tencentweibo">腾讯微博</string>
+    <string name="terms_of_service">服务条款</string>
+    <string name="terms_of_service_tip">同意并接受典典养车的</string>
+    <string name="tire_detail">轮胎详情</string>
+    <string name="title_activity_app_web_view">AppWebViewActivity</string>
+    <string name="title_activity_ddcx">典典车险</string>
+    <string name="title_activity_h5">H5Activity</string>
+    <string name="title_activity_pay_service_select">选择付款项目</string>
+    <string name="tousu_num">4008859797</string>
+    <string name="tumblr">Tumblr</string>
+    <string name="twitter">Twitter</string>
+    <string name="upload_license_info">上传行驶证</string>
+    <string name="use_login_button">请改用“登录”按钮</string>
+    <string name="user_info">账户信息</string>
+    <string name="user_login">登录</string>
+    <string name="user_name">联系人姓名:</string>
+    <string name="user_score">积分:</string>
+    <string name="user_score_notic">积分规则</string>
+    <string name="violation_car_info_incomplete">信息不完整</string>
+    <string name="violation_car_list_complete">完善</string>
+    <string name="violation_cnt_lable">累计违章: &lt;font color=#ff6006>COUNT&lt;/font></string>
+    <string name="violation_empty_content">"表现不错!
+还没有违章记录哦!"</string>
+    <string name="violation_fine_money">累计罚款: &lt;font color=#ff6006>MONEY&lt;/font></string>
+    <string name="violation_fine_score">累计扣分: &lt;font color=#ff6006>SCORE&lt;/font></string>
+    <string name="vkontakte">VK</string>
+    <string name="website">http://www.shareSDK.cn</string>
+    <string name="wechat">微信好友</string>
+    <string name="wechat_client_inavailable">目前您的微信版本过低或未安装微信，需要安装微信才能使用</string>
+    <string name="wechatfavorite">微信收藏</string>
+    <string name="wechatmoments">微信朋友圈</string>
+    <string name="weibo_oauth_regiseter">应用授权</string>
+    <string name="weibo_upload_content">分享图片</string>
+    <string name="xkim_connect_error">连接发生错误</string>
+    <string name="xkim_logout_by_person">手动退出</string>
+    <string name="xkim_time_out">超时</string>
+    <string name="xkim_yh">"''"</string>
+    <string name="yixin">易信</string>
+    <string name="yixin_client_inavailable">目前您的易信版本过低或未安装易信，需要安装易信才能使用</string>
+    <string name="yixinmoments">易信朋友圈</string>
+    <string name="youdao">有道云笔记</string>
+
+</resources>

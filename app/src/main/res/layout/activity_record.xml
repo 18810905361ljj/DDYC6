@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/my_tou">
+        <ImageView
+            android:id="@+id/my_back2"
+            android:layout_marginTop="12dp"
+            android:src="@drawable/ic_arrows_back"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <TextView
+
+            android:text="我的积分"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="9dp"
+            android:textSize="24sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/my_back2"
+            android:layout_toEndOf="@+id/my_back2"
+            android:id="@+id/textView" />
+        <TextView
+            android:id="@+id/text_rule"
+            android:textSize="18sp"
+            android:text="积分规则"
+            android:layout_marginRight="12dp"
+            android:layout_alignBaseline="@id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+
+</LinearLayout>
